@@ -554,10 +554,12 @@
 	new_profile.emissive_eyes = target.emissive_eyes
 	new_profile.scream_type = target.selected_scream?.type || /datum/scream_type/none
 	new_profile.laugh_type = target.selected_laugh?.type || /datum/laugh_type/none
-	new_profile.target_height = target.get_mob_height()
-	new_profile.target_mob_size = target.mob_size
-	//NOVA EDIT ADDITION END
-
+//THE BUBBER EDIT ADDITION BEGIN - Voice Bark
+	new_profile.blooper_id = target.blooper_id
+	new_profile.blooper_pitch = target.blooper_pitch
+	new_profile.blooper_speed = target.blooper_speed
+	new_profile.blooper_pitch_range = target.blooper_pitch_range
+	//THE BUBBER EDIT END
 	// Grab skillchips they have
 	new_profile.skillchips = target.clone_skillchip_list(TRUE)
 
@@ -933,7 +935,8 @@
 	user.updateappearance(mutcolor_update = TRUE, eyeorgancolor_update = TRUE)
 	user.regenerate_icons()
 	user.name = user.get_visible_name()
-	// NOVA EDIT END
+	current_profile = chosen_profile
+	// SKYRAT EDIT END
 
 // Changeling profile themselves. Store a data to store what every DNA instance looked like.
 /datum/changeling_profile
