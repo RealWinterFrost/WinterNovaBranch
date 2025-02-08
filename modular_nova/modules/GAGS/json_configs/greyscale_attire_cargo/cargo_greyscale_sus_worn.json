@@ -1,0 +1,16 @@
+{
+	"Suspicious_Cargo_Outfit": [
+		{
+			"type": "icon_state",
+			"icon_state": "qmsynd_1",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "qmsynd_2",
+			"blend_mode": "overlay",
+			"color_ids": [ 2 ]
+		}
+	]
+}

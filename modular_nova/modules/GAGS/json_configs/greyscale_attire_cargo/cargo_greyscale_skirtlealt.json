@@ -1,0 +1,42 @@
+{
+	"recolorable_cargo_skirtlealt": [
+		{
+			"type": "icon_state",
+			"icon_state": "cargo_skirt_alt_1",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "cargo_skirt_alt_2",
+			"blend_mode": "overlay",
+			"color_ids": [ 2 ]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "cargo_skirt_alt_3",
+			"blend_mode": "overlay",
+			"color_ids": [ 3 ]
+		}
+	],
+	"recolorable_cargo_skirtlealt_d" : [
+		{
+			"type": "icon_state",
+			"icon_state": "cargo_skirt_alt_1_t",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "cargo_skirt_alt_2_t",
+			"blend_mode": "overlay",
+			"color_ids": [ 2 ]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "cargo_skirt_alt_3_t",
+			"blend_mode": "overlay",
+			"color_ids": [ 3 ]
+		}
+	]
+}

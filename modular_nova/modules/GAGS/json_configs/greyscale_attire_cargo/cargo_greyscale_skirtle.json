@@ -1,0 +1,30 @@
+{
+	"recolorable_cargo_skirtle": [
+		{
+			"type": "icon_state",
+			"icon_state": "skirtleneck_1",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "skirtleneck_2",
+			"blend_mode": "overlay",
+			"color_ids": [ 2 ]
+		}
+	],
+	"recolorable_cargo_skirtlealt_d" : [
+		{
+			"type": "icon_state",
+			"icon_state": "skirtleneck_1_t",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "skirtleneck_2_t",
+			"blend_mode": "overlay",
+			"color_ids": [ 2 ]
+		}
+	]
+}

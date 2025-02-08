@@ -249,3 +249,93 @@
 	icon_state = "loincloth_alt"
 	greyscale_config = /datum/greyscale_config/loincloth_alt
 	greyscale_config_worn = /datum/greyscale_config/loincloth_alt/worn
+
+/obj/item/clothing/under/dress/nova/colorable_cargo_skirt
+	name = "Robust Cargo Skirt"
+	desc = "Fabcy bitch"
+	icon_state = "colorable_cargo_skirt"
+	body_parts_covered = CHEST|GROIN|LEGS
+	greyscale_config = /datum/greyscale_config/colorable_cargo_skirt
+	greyscale_config_worn = /datum/greyscale_config/colorable_cargo_skirt/worn
+	// greyscale_config_worn_digi =
+	greyscale_colors = "#EEEEEE#EEEEEE"
+	flags_1 = IS_PLAYER_COLORABLE_1
+	can_adjust = TRUE
+
+/obj/item/clothing/under/dress/nova/colorable_cargotech_alt
+	name = "Colorable CargoTech"
+	desc = "Fabcy bitch"
+	icon_state = "Technician_Alt"
+	body_parts_covered = CHEST|GROIN|LEGS
+	greyscale_config = /datum/greyscale_config/colorable_cargo_tech_alt
+	greyscale_config_worn = /datum/greyscale_config/colorable_cargo_tech_alt/worn
+	// greyscale_config_worn_digi =
+	greyscale_colors = "#EEEEEE#EEEEEE#EEEEEE"
+	flags_1 = IS_PLAYER_COLORABLE_1
+	can_adjust = TRUE
+
+/obj/item/clothing/under/dress/nova/colorable_sustech
+	name = "Suspiciously Recolorable Cargo Uniform"
+	desc = "SUS"
+	icon_state = "Suspicious_Cargo_Outfit"
+	body_parts_covered = CHEST|GROIN|LEGS
+	greyscale_config = /datum/greyscale_config/colorable_cargo_sus
+	greyscale_config_worn = /datum/greyscale_config/colorable_cargo_sus/worn
+	// greyscale_config_worn_digi =
+	greyscale_colors = "#EEEEEE#EEEEEE"
+	flags_1 = IS_PLAYER_COLORABLE_1
+
+/obj/item/clothing/under/dress/nova/colorable_gorka
+	name = "Colorable Gorka"
+	desc = "SUS"
+	icon_state = "recolorable_gorka"
+	body_parts_covered = CHEST|GROIN|LEGS
+	greyscale_config = /datum/greyscale_config/colorable_cargo_gorka
+	greyscale_config_worn = /datum/greyscale_config/colorable_cargo_gorka/worn
+	// greyscale_config_worn_digi =
+	greyscale_colors = "#EEEEEE#EEEEEE"
+	flags_1 = IS_PLAYER_COLORABLE_1
+
+/obj/item/clothing/under/dress/nova/colorable_special_gorka
+	name = "Colorable Specialty Gorka"
+	desc = "SUS"
+	icon_state = "recolorable_gorka_special"
+	body_parts_covered = CHEST|GROIN|LEGS
+	greyscale_config = /datum/greyscale_config/colorable_cargo_gorka_special
+	greyscale_config_worn = /datum/greyscale_config/colorable_cargo_gorka_special/worn
+	// greyscale_config_worn_digi =
+	greyscale_colors = "#EEEEEE#EEEEEE#EEEEEE"
+	flags_1 = IS_PLAYER_COLORABLE_1
+
+/obj/item/clothing/under/dress/nova/colorable_cargo_turtle
+	name = "Colorable Fancy Skirtleneck"
+	desc = "SUS"
+	icon_state = "recolorable_cargo_turtleneck"
+	body_parts_covered = CHEST|GROIN|LEGS
+	greyscale_config = /datum/greyscale_config/colorable_cargo_turtle
+	greyscale_config_worn = /datum/greyscale_config/colorable_cargo_turtle/worn
+	// greyscale_config_worn_digi =
+	greyscale_colors = "#EEEEEE#EEEEEE#EEEEEE"
+	flags_1 = IS_PLAYER_COLORABLE_1
+
+/obj/item/clothing/under/dress/nova/colorable_cargo_skirtle
+	name = "Colorable Fancy Skirtleneck"
+	desc = "SUS"
+	icon_state = "recolorable_cargo_skirtle"
+	body_parts_covered = CHEST|GROIN|LEGS
+	greyscale_config = /datum/greyscale_config/colorable_cargo_skirtle
+	greyscale_config_worn = /datum/greyscale_config/colorable_cargo_skirtle/worn
+	// greyscale_config_worn_digi =
+	greyscale_colors = "#EEEEEE#EEEEEE"
+	flags_1 = IS_PLAYER_COLORABLE_1
+
+/obj/item/clothing/under/dress/nova/colorable_cargo_skirtlealt
+	name = "Colorable Fancy Skirtleneck"
+	desc = "SUS"
+	icon_state = "recolorable_cargo_skirtlealt"
+	body_parts_covered = CHEST|GROIN|LEGS
+	greyscale_config = /datum/greyscale_config/colorable_cargo_skirtlealt
+	greyscale_config_worn = /datum/greyscale_config/colorable_cargo_skirtlealt/worn
+	// greyscale_config_worn_digi =
+	greyscale_colors = "#EEEEEE#EEEEEE#EEEEEE"
+	flags_1 = IS_PLAYER_COLORABLE_1

@@ -1,0 +1,22 @@
+{
+	"recolorable_gorka_special": [
+		{
+			"type": "icon_state",
+			"icon_state": "gorka_qm_1",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "gorka_qm_2",
+			"blend_mode": "overlay",
+			"color_ids": [ 2 ]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "gorka_qm_3",
+			"blend_mode": "overlay",
+			"color_ids": [ 3 ]
+		}
+	]
+}

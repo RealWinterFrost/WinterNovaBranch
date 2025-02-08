@@ -2004,3 +2004,74 @@ TREK
 /datum/greyscale_config/turret/toolbox
 	name = "Donksoft Turret"
 	json_config = 'modular_nova/modules/GAGS/json_configs/turret/turret_toolbox.json'
+
+// Fancy Recolorable Cargo Attire
+/datum/greyscale_config/colorable_cargo_skirt
+	name = "Robust Dress"
+	icon_file = 'modular_nova/modules/GAGS/icons/cargo_greyscale.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/greyscale_attire_cargo/cargo_greyscale.json'
+/datum/greyscale_config/colorable_cargo_skirt/worn
+	name = "Robust Dress (Worn)"
+	json_config = 'modular_nova/modules/GAGS/json_configs/greyscale_attire_cargo/cargo_greyscale_worn.json'
+
+/datum/greyscale_config/colorable_cargo_tech_alt
+	name = "Robust Cargo Uniform"
+	icon_file = 'modular_nova/modules/GAGS/icons/cargo_greyscale.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/greyscale_attire_cargo/cargo_greyscale_tech_alt.json'
+/datum/greyscale_config/colorable_cargo_tech_alt/worn
+	name = "Robust Cargo Uniform (Worn)"
+	json_config = 'modular_nova/modules/GAGS/json_configs/greyscale_attire_cargo/cargo_greyscale_tech_alt_worn.json'
+
+/datum/greyscale_config/colorable_cargo_sus
+	name = "Robust Cargo Uniform"
+	icon_file = 'modular_nova/modules/GAGS/icons/cargo_greyscale.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/greyscale_attire_cargo/cargo_greyscale_sus.json'
+/datum/greyscale_config/colorable_cargo_sus/worn
+	name = "Robust Cargo Uniform (Worn)"
+	json_config = 'modular_nova/modules/GAGS/json_configs/greyscale_attire_cargo/cargo_greyscale_sus_worn.json'
+
+/datum/greyscale_config/colorable_cargo_gorka
+	name = "Robust Cargo Uniform"
+	icon_file = 'modular_nova/modules/GAGS/icons/cargo_greyscale.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/greyscale_attire_cargo/cargo_greyscale_gorka.json'
+
+/datum/greyscale_config/colorable_cargo_gorka/worn
+	name = "Robust Cargo Uniform (Worn)"
+	json_config = 'modular_nova/modules/GAGS/json_configs/greyscale_attire_cargo/cargo_greyscale_gorka_worn.json'
+
+/datum/greyscale_config/colorable_cargo_gorka_special
+	name = "Robust Cargo Uniform"
+	icon_file = 'modular_nova/modules/GAGS/icons/cargo_greyscale.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/greyscale_attire_cargo/cargo_greyscale_gorka_special.json'
+
+/datum/greyscale_config/colorable_cargo_gorka_special/worn
+	name = "Robust Cargo Uniform (Worn)"
+	json_config = 'modular_nova/modules/GAGS/json_configs/greyscale_attire_cargo/cargo_greyscale_gorka_special_worn.json'
+
+
+
+/datum/greyscale_config/colorable_cargo_turtle
+	name = "Robust Cargo Uniform"
+	icon_file = 'modular_nova/modules/GAGS/icons/cargo_greyscale.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/greyscale_attire_cargo/cargo_greyscale_turtle.json'
+
+/datum/greyscale_config/colorable_cargo_turtle/worn
+	name = "Robust Cargo Uniform (Worn)"
+	json_config = 'modular_nova/modules/GAGS/json_configs/greyscale_attire_cargo/cargo_greyscale_turtle_worn.json'
+
+/datum/greyscale_config/colorable_cargo_skirtle
+	name = "Robust Cargo Uniform"
+	icon_file = 'modular_nova/modules/GAGS/icons/cargo_greyscale.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/greyscale_attire_cargo/cargo_greyscale_skirtle.json'
+/datum/greyscale_config/colorable_cargo_skirtle/worn
+	name = "Robust Cargo Uniform (Worn)"
+	json_config = 'modular_nova/modules/GAGS/json_configs/greyscale_attire_cargo/cargo_greyscale_skirtle_worn.json'
+
+/datum/greyscale_config/colorable_cargo_skirtlealt
+	name = "Robust Cargo Uniform"
+	icon_file = 'modular_nova/modules/GAGS/icons/cargo_greyscale.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/greyscale_attire_cargo/cargo_greyscale_skirtlealt.json'
+/datum/greyscale_config/colorable_cargo_skirtlealt/worn
+	name = "Robust Cargo Uniform (Worn)"
+	json_config = 'modular_nova/modules/GAGS/json_configs/greyscale_attire_cargo/cargo_greyscale_skirtlealt_worn.json'
+

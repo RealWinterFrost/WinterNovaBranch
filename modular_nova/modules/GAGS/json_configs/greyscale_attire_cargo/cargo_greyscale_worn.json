@@ -1,0 +1,30 @@
+{
+	"colorable_cargo_skirt": [
+		{
+			"type": "icon_state",
+			"icon_state": "cargo_skirt_1",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "cargo_skirt_2",
+			"blend_mode": "overlay",
+			"color_ids": [ 2 ]
+		}
+	],
+	"colorable_cargo_skirt_d" : [
+		{
+			"type": "icon_state",
+			"icon_state": "cargo_skirt_1_t",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "cargo_skirt_2_t",
+			"blend_mode": "overlay",
+			"color_ids": [ 2 ]
+		}
+	]
+}
