@@ -2019,3 +2019,7 @@ TREK
 /datum/greyscale_config/fancy_labcoat/worn/teshari
 	name = "Fancy Suit (Worn, Teshari)"
 	json_config = 'modular_nova/modules/GAGS/json_configs/fancy_labcoat/fancy_labcoat_tesh_worn.json'
+
+
+// Ashwalker mantle recolor support
+/datum/greyscale_config/ashwalkermantle
