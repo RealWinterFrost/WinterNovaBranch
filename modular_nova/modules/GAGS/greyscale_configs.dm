@@ -2125,3 +2125,24 @@ TREK
 	name = "Tarkon Uniform (Worn, Digi)"
 	icon_file = 'modular_nova/modules/tarkon/icons/mob/clothing/uniform_digi.dmi'
 	json_config = 'modular_nova/modules/GAGS/json_configs/tarkon/tarkonuniform_worn.json'
+
+/*
+*
+* SOLAR FEDERATION
+*
+*/
+
+/datum/greyscale_config/solfeduniform
+	name = "Solfed Uniform"
+	icon_file = 'modular_nova/modules/factions/icons/clothing/obj/uniform_under.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/factions/camouniform_ident.json'
+
+/datum/greyscale_config/solfeduniform/worn
+	name = "Solfed Uniform (Worn)"
+	icon_file = 'modular_nova/modules/factions/icons/clothing/mob/uniform_under.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/factions/camouniform_ident.json'
+
+/datum/greyscale_config/solfeduniform/worn/digi
+	name = "Solfed Uniform (Worn, Digi)"
+	icon_file = 'modular_nova/modules/factions/icons/clothing/mob/uniform_under_digi.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/factions/camouniform_ident.json'
