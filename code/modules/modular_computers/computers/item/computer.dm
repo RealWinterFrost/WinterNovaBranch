@@ -319,6 +319,7 @@
 		computer_id_slot.forceMove(drop_location())
 
 	computer_id_slot = null
+	SEND_SIGNAL(src, COMSIG_MODULAR_COMPUTER_REMOVED_ID, computer_id_slot, user) // NOVA EDIT ADDITION - Signal on ID removal
 
 	if(!silent && !isnull(user))
 		to_chat(user, span_notice("You remove the card from the card slot."))
@@ -620,7 +621,7 @@
 	data["PC_programheaders"] = program_headers
 
 	data["PC_stationtime"] = station_time_timestamp()
-	data["PC_stationdate"] = "[time2text(world.realtime, "DDD, Month DD")], [CURRENT_STATION_YEAR]"
+	data["PC_stationdate"] = "[time2text(world.realtime, "DDD, Month DD", NO_TIMEZONE)], [CURRENT_STATION_YEAR]"
 	data["PC_showexitprogram"] = !!active_program // Hides "Exit Program" button on mainscreen
 	return data
 
@@ -997,7 +998,7 @@
 		if(SEC_LEVEL_RED) // all-hands-on-deck situations, everyone is responsible for combatting a threat
 			return ALERT_RELEVANCY_PERTINENT
 		if(SEC_LEVEL_BLUE) // suspected threat. security needs to be alert and possibly preparing for it, no further concerns
-			if(ACCESS_SECURITY in computer_id_slot.access)
+			if(ACCESS_SECURITY in computer_id_slot?.access)
 				return ALERT_RELEVANCY_PERTINENT
 			else
 				return ALERT_RELEVANCY_WARN
