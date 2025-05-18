@@ -11,7 +11,6 @@
 #define COMPANY_CYBERSUN "It has a <b>[span_red("red circle")]</b> broken by a <b>hexagonal flower</b> alongside <b>[span_red("Cybersun Industries")]</b> in Konjin etched into it."
 #define COMPANY_SCARBOROUGH "It has <b>[span_orange("Scarborough Arms")]</b> stamped onto it."
 #define COMPANY_INTERDYNE "It has <b>[span_green("Interdyne Pharmaceuticals")]</b> stamped onto it."
-#define COMPANY_SOLFED "It has <b>[span_cyan("✧︎ Solar Federation Surplus ✧︎")]</b> stamped into it."
 #define COMPANY_GORLEX "It has <b>[span_red("GORLEX MARAUDERS")]</b> stamped into it... rather suspiciously."
 #define COMPANY_SYNDICATE "It has a <b>[span_red("snake with three heads")]</b> alongside <b>[span_red("Syndicate Conglomerate")]</b> etched on the side of it... rather suspiciously..."
 
@@ -32,3 +31,9 @@
 #define COMPANY_KAHRAMAN "It has a <b>[span_red("red label")] with <b>[span_red("K - A - S")]</b> printed on it, alongside various xerxian proof-marks.</b>"
 
 #define COMPANY_REMOVED "It has had <b>[span_grey("all identifying marks scrubbed off")].</b>"
+
+#define COMPANY_SOLFED "It has <b>[span_cyan("✧︎ Solar Federation Surplus ✧︎")]</b> stamped into it."
+#define COMPANY_ABRAHAM "It has an ancient solarian president with the words <b>[span_cyan("⍚ Abraham Balistics ⍚")]</b> stamped into it."
+#define COMPANY_EARTHDEFENSE "It has <b>[span_cyan("◈ Sol Defense Armouries ◈")]</b> stamped into it, with a depiction of the solarian homeworld 'earth' above it."
+#define COMPANY_ALTERISCORP "It has <b>[span_warningplain("✥ Alteris Electrics ✥")]</b> stamped into it."
+#define COMPANY_EBOLADA "It has <b>[span_cyan("☠ Ebolada Raiders Corp ☠")]</b> stamped into it."
