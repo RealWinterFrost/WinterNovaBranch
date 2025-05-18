@@ -338,6 +338,7 @@ GLOBAL_LIST_INIT(call911_do_and_do_not, list(
 	r_pocket = /obj/item/flashlight/seclite
 	l_pocket = /obj/item/restraints/handcuffs
 	id = /obj/item/card/id/advanced/solfed
+	implants = list(/obj/item/implant/fed_loyalty)
 	backpack_contents = list(
 		/obj/item/gun/ballistic/automatic/pistol/sol = 1,
 		/obj/item/ammo_box/magazine/c35sol_pistol = 4,
@@ -369,6 +370,7 @@ GLOBAL_LIST_INIT(call911_do_and_do_not, list(
 	belt = /obj/item/storage/belt/utility/full/powertools/ircd
 	suit_store = /obj/item/tank/internals/oxygen/yellow
 	id = /obj/item/card/id/advanced/solfed
+	implants = list(/obj/item/implant/fed_loyalty)
 	backpack_contents = list(/obj/item/storage/box/rcd_ammo = 1,
 		/obj/item/storage/box/smart_metal_foam = 1,
 		/obj/item/multitool = 1,
@@ -449,6 +451,7 @@ GLOBAL_LIST_INIT(call911_do_and_do_not, list(
 	suit_store = /obj/item/tank/internals/emergency_oxygen/engi
 	r_pocket = /obj/item/flashlight/seclite
 	l_pocket = /obj/item/storage/medkit/civil_defense
+	implants = list(/obj/item/implant/fed_loyalty)
 	backpack_contents = list(
 		/obj/item/storage/box/survival = 1,
 		/obj/item/emergency_bed = 1,
@@ -494,6 +497,7 @@ GLOBAL_LIST_INIT(call911_do_and_do_not, list(
 	l_pocket = /obj/item/restraints/handcuffs
 	id = /obj/item/card/id/advanced/solfed
 	l_hand = /obj/item/gun/ballistic/shotgun/riot/sol
+	implants = list(/obj/item/implant/fed_loyalty)
 	backpack_contents = list(
 		/obj/item/storage/box/survival = 1,
 		/obj/item/storage/box/handcuffs = 1,
@@ -542,6 +546,7 @@ GLOBAL_LIST_INIT(call911_do_and_do_not, list(
 	r_pocket = /obj/item/flashlight/seclite
 	id = /obj/item/card/id/advanced/solfed
 	r_hand = /obj/item/gun/ballistic/automatic/sol_rifle
+	implants = list(/obj/item/implant/fed_loyalty)
 	backpack_contents = list(
 		/obj/item/storage/box/handcuffs = 1,
 		/obj/item/sacrificial_face_shield = 1,
