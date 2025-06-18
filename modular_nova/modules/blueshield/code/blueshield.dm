@@ -116,6 +116,7 @@
 		"Custom Hellfire Laser Rifle" = /obj/item/gun/energy/laser/hellgun/blueshield,
 		"NT20 Submachinegun Gunset" = /obj/item/storage/toolbox/guncase/nova/ntspecial/nt20,
 		"Katyusha Shotgun Gunset" = /obj/item/storage/toolbox/guncase/nova/katyusha,
+		"'Corvo' Energy Sword" = /obj/item/melee/energy/sword/centcom,
 	)
 
 	return selectable_gun_types

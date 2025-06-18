@@ -174,6 +174,7 @@
 	var/static/list/selectable_gun_types = list(
 		"Takbok Revolver Set" = /obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/takbok,
 		"Skild Pistol Set" = /obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/skild,
+		"'Corvo' Energy Sword" = /obj/item/melee/energy/sword/centcom,
 	)
 
 	return selectable_gun_types
