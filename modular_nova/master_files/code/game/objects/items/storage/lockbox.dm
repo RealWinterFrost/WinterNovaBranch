@@ -56,19 +56,18 @@
 	icon_open = "medalcaseopen"
 
 // Syndicate Admiral's Medals box
-/obj/item/storage/lockbox/medal/nova/synd
-	name = "\improper medal box"
-	desc = "A locked box used to store medals of honor."
-	icon_state = "syndbox+l"
-	inhand_icon_state = "syringe_kit"
-	w_class = WEIGHT_CLASS_NORMAL
+/obj/item/storage/lockbox/medal/synd
+	name = "\improper syndicate medal box"
+
 	req_access = list(ACCESS_SYNDICATE_LEADER)
+
+	icon_state = "syndbox+l"
 	icon_locked = "syndbox+l"
 	icon_closed = "syndbox"
 	icon_broken = "syndbox+b"
 	icon_open = "syndboxopen"
 
-/obj/item/storage/lockbox/medal/nova/synd/PopulateContents()
+/obj/item/storage/lockbox/medal/synd/PopulateContents()
 	new /obj/item/clothing/accessory/medal/nova/syndicate(src)
 	new /obj/item/clothing/accessory/medal/nova/syndicate/espionage(src)
 	new /obj/item/clothing/accessory/medal/nova/syndicate/interrogation(src)
@@ -76,18 +75,23 @@
 	new /obj/item/clothing/accessory/medal/nova/syndicate/diligence(src)
 	new /obj/item/clothing/accessory/medal/nova/syndicate/communications(src)
 
-/obj/item/storage/lockbox/medal/nova/synd/interdyne
+/obj/item/storage/lockbox/medal/interdyne
 	name = "\improper interdyne pharmaceuticals medal box"
+
+	req_access = list(ACCESS_SYNDICATE_LEADER)
+
 	icon_state = "dynebox+l"
 	icon_locked = "dynebox+l"
 	icon_closed = "dynebox"
 	icon_broken = "dynebox+b"
 	icon_open = "dyneboxopen"
 
-/obj/item/storage/lockbox/medal/nova/synd/interdyne/PopulateContents()
-	new /obj/item/clothing/accessory/medal/nova/syndicate(src)
-	new /obj/item/clothing/accessory/medal/nova/syndicate/espionage(src)
-	new /obj/item/clothing/accessory/medal/nova/syndicate/interrogation(src)
-	new /obj/item/clothing/accessory/medal/nova/syndicate/intelligence(src)
-	new /obj/item/clothing/accessory/medal/nova/syndicate/diligence(src)
-	new /obj/item/clothing/accessory/medal/nova/syndicate/communications(src)
+/obj/item/storage/lockbox/medal/interdyne/PopulateContents()
+	new /obj/item/clothing/accessory/medal/nova/interdyne(src)
+	new /obj/item/clothing/accessory/medal/nova/interdyne/profit(src)
+	new /obj/item/clothing/accessory/medal/nova/interdyne/excellency(src)
+	new /obj/item/clothing/accessory/medal/nova/interdyne/services(src)
+	new /obj/item/clothing/accessory/medal/nova/interdyne/engineering(src)
+	new /obj/item/clothing/accessory/medal/nova/interdyne/search_rescue(src)
+	new /obj/item/clothing/accessory/medal/nova/interdyne/xenobio(src)
+	new /obj/item/clothing/accessory/medal/nova/interdyne/chemistry(src)
