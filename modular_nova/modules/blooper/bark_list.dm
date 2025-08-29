@@ -133,6 +133,24 @@
 	soundpath = 'modular_nova/modules/blooper/voice/bloopers/voice_monster2.ogg'
 	minvariance = 0
 
+/datum/blooper/teshari
+	name = "Teshari"
+	id = "teshari1"
+	soundpath = 'modular_nova/modules/blooper/voice/bloopers/teshari.ogg'
+	minvariance = 0
+
+/datum/blooper/teshari_2
+	name = "Teshari (Bold)"
+	id = "teshari2"
+	soundpath = 'modular_nova/modules/blooper/voice/bloopers/teshari_bold.ogg'
+	minvariance = 0
+
+/datum/blooper/teshari_3
+	name = "Teshari (Curious)"
+	id = "teshari3"
+	soundpath = 'modular_nova/modules/blooper/voice/bloopers/teshari_curious.ogg'
+	minvariance = 0
+
 /datum/blooper/blerp
 	name = "Blerp"
 	id = "blerp"

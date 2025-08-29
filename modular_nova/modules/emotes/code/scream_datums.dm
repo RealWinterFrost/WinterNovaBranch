@@ -93,6 +93,11 @@ GLOBAL_LIST_EMPTY(scream_types)
 	male_screamsounds = list('modular_nova/modules/emotes/sound/emotes/raptorscream.ogg')
 	female_screamsounds = null
 
+/datum/scream_type/teshari //This is the Teshari scream ported from CitRP which was a cockatoo scream edited by BlackMajor.
+	name = "Teshari Scream"
+	male_screamsounds = list('modular_nova/modules/emotes/sound/emotes/teshari_scream.ogg')
+	female_screamsounds = null
+
 /datum/scream_type/rodent //Ported from Polaris/Virgo.
 	name = "Rodent Scream"
 	male_screamsounds = list('modular_nova/modules/emotes/sound/emotes/rodentscream.ogg')
