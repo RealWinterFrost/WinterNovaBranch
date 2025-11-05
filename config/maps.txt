@@ -90,3 +90,6 @@ endmap
 map snowglobe
 	votable
 endmap
+
+map CoreStation
+endmap
